@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helena Christine Edwards — About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-title-block">
+        <a href="index.html" class="site-title">Helena Christine Edwards</a>
+        <p class="site-subtitle">Pencil works on paper</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Gallery</a>
+        <a href="exhibitions.html" class="nav-link">Exhibitions</a>
+        <a href="about.html" class="nav-link nav-link-active">About</a>
+      </nav>
+    </header>
+
+    <main class="main main-about">
+      <section class="about-layout">
+        <div class="about-photo">
+          <div class="portrait-placeholder pastel-3"></div>
+        </div>
+        <div class="about-text">
+          <h1>About the artist</h1>
+          <p>
+            This is a short placeholder biography text. It will describe the artist's practice, the
+            materials they work with, and the themes that recur through the drawings: quietness,
+            observation, and the slow accumulation of line.
+          </p>
+          <p>
+            The tone of the site is intentionally gentle and spacious, mirroring the delicacy of the
+            pencil work itself.
+          </p>
+
+          <div class="about-socials">
+            <h2>Elsewhere</h2>
+            <ul class="social-list">
+              <li>
+                <a class="inline-link" href="https://instagram.com/" target="_blank" rel="noreferrer">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>
+          For enquiries about available works, exhibitions, or commissions, please use the form
+          below.
+        </p>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="button-ghost">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <p class="site-footer-copy">&copy; <span id="year"></span> Helena Christine Edwards</p>
+        <ul class="footer-socials">
+          <li>
+            <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
